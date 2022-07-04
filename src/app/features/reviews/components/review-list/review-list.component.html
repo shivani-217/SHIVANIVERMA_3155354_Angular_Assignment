@@ -1,0 +1,21 @@
+<h2><span>{{ 'Movie Reviews'|translate }}</span></h2>
+<div class="">
+  <div class="row">
+    <div class="col mb-4" *ngFor="let review of reviewData">
+      <mat-card class="example-card mat-elevation-z0 h-100 outline">
+        <mat-card-title-group>
+          <mat-card-title>{{review?.author}}</mat-card-title>
+        </mat-card-title-group>
+        <mat-card-content>
+          {{review?.content}}
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="row">
+      <div class="col" *ngIf="isLogin">
+        <button mat-raised-button color="accent" (click)="openReviewForm(movieId)">Add Review</button>
+      </div>
+    </div>
+
+  </div>
+</div>

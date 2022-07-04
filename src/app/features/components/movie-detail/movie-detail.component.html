@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-3 img-wrapper">
+            <img src="{{ movie?.imageUrl }}" class="img-fluid w-100">
+        </div>
+        <div class="col-12 col-md-9 movie-detail-wrapper">
+            <div class="movie-title">
+                <span>{{ movie?.title }}</span>
+            </div>
+            <div class="movie-genre">
+                <span><strong>Genre: </strong> </span>
+                <span>{{ movie?.genre }}</span>
+            </div>
+            <div class="movie-description">
+                <span><strong>Description </strong> </span>
+                <br>
+                <span>{{ movie?.description }}</span>
+            </div>
+            <div class="movie-releaseDate">
+                <span><strong>Release Date: </strong> </span>
+                <span>{{ movie?.releaseDate | date }}</span>
+            </div>
+            <div class="movie-imdb">
+                <span><strong>IMDB Rating: </strong></span>
+                <span>{{ movie?.imdbRating }}</span>
+            </div>
+            <div class="button-wrapper">
+                <button class="watch-button" mat-raised-button color="primary" (click)="onWatchedClick()">
+                    <ng-container *ngIf="!isWatched;else watched">
+                        <span>Watch</span>
+                    </ng-container>
+                </button>
+                <button class="fav-button ms-1" mat-stroked-button color="secondary" (click)="onFavClick()">
+                    <ng-template #watched><span>Watched</span></ng-template>
+                    <ng-container *ngIf="!isFav;else favorite">
+                        <mat-icon>favorite_border</mat-icon>
+                    </ng-container>
+                </button>
+                <ng-template #favorite>
+                    <mat-icon>favorite</mat-icon>
+                </ng-template>
+            </div>
+            <div class="watch-later-button" *ngIf="!isWatched">
+                <button mat-raised-button color="primary" (click)="onWatchedLaterClick()">
+                    <span>Watch Later</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <div class="row movie-review-wrapper">
+        <div class="col">
+            <app-review-list [movieId]="id">
+            </app-review-list>
+        </div>
+    </div>
+</div>

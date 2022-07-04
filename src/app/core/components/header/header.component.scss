@@ -1,0 +1,18 @@
+.spacer{
+    flex: 1 1 auto;
+}
+.loginButtonTxt{
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 2px;;
+}
+select{
+    width:100px;
+}
+
+.styled-select select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}

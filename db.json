@@ -1,0 +1,252 @@
+{
+  "movieList": [
+    {
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "title": "Doctor Strange",
+      "description": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "imdbRating": 9,
+      "language": "English",
+      "releaseDate": "2022-05-06T18:30:00.000Z",
+      "genre": "Action",
+      "imageUrl": "/assets/images/doctorStrange.jpg",
+      "id": 1,
+      "isWatched": true,
+      "isFav": false,
+      "isPrime": true,
+      "isWatchedLater": true
+    },
+    {
+      "name": "Spider-Man: No Way Home",
+      "title": "Spider-Man: No Way Home",
+      "description": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "imdbRating": 7,
+      "language": "English",
+      "releaseDate": "2022-07-12T18:30:00.000Z",
+      "genre": "Action",
+      "imageUrl": "/assets/images/spiderman.jpg",
+      "id": 2,
+      "isPrime": true
+    },
+    {
+      "name": "The Fault in Our Stars",
+      "title": "The Fault in Our Stars",
+      "description": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a patient named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.",
+      "imdbRating": 8,
+      "language": "English",
+      "releaseDate": "2014-05-07T18:30:00.000Z",
+      "genre": "Horror",
+      "imageUrl": "/assets/images/fault.jpg",
+      "id": 3,
+      "isPrime": false
+    },
+    {
+      "name": "Top Gun: Maverick",
+      "title": "Top Gun: Maverick",
+      "description": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "imdbRating": 5,
+      "language": "English",
+      "releaseDate": "2022-04-07T18:30:00.000Z",
+      "genre": "Drama",
+      "imageUrl": "/assets/images/topgun.jpg",
+      "id": 4,
+      "isPrime": false
+    },
+    {
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "title": "Doctor Strange",
+      "description": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "imdbRating": 9,
+      "language": "English",
+      "releaseDate": "2022-05-06T18:30:00.000Z",
+      "genre": "Action",
+      "imageUrl": "/assets/images/doctorStrange.jpg",
+      "id": 5,
+      "isPrime": false
+    },
+    {
+      "name": "Spider-Man: No Way Home",
+      "title": "Spider-Man: No Way Home",
+      "description": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "imdbRating": 7,
+      "language": "English",
+      "releaseDate": "2022-07-12T18:30:00.000Z",
+      "genre": "Action",
+      "imageUrl": "/assets/images/spiderman.jpg",
+      "id": 6,
+      "isPrime": false
+    },
+    {
+      "name": "The Fault in Our Stars",
+      "title": "The Fault in Our Stars",
+      "description": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a patient named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.",
+      "imdbRating": 8,
+      "language": "English",
+      "releaseDate": "2014-05-07T18:30:00.000Z",
+      "genre": "Horror",
+      "imageUrl": "/assets/images/fault.jpg",
+      "id": 7,
+      "isWatched": false,
+      "isPrime": false
+    },
+    {
+      "name": "Top Gun: Maverick",
+      "title": "Top Gun: Maverick",
+      "description": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "imdbRating": 5,
+      "language": "English",
+      "releaseDate": "2022-04-07T18:30:00.000Z",
+      "genre": "Drama",
+      "imageUrl": "/assets/images/topgun.jpg",
+      "id": 8,
+      "isPrime": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "email": "shsh",
+      "username": "shshh",
+      "firstName": "shshsh",
+      "lastName": "shshhs",
+      "password": "shshh",
+      "confirmPassword": "shshhs",
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "username": "test",
+      "firstName": "test",
+      "lastName": "test",
+      "password": "test123",
+      "confirmPassword": "test123",
+      "id": 3,
+      "primeUser": true
+    },
+    {
+      "email": "test@gmail.com",
+      "username": "shivani",
+      "firstName": "shivani",
+      "lastName": "shivani",
+      "password": "test123",
+      "confirmPassword": "test123",
+      "id": 4
+    },
+    {
+      "email": "s",
+      "name": "sjsj",
+      "password": "sjsjjs",
+      "confirmPassword": "ssiisi",
+      "id": 5
+    },
+    {
+      "email": "sksk@gmail.com",
+      "name": "shsh",
+      "password": "123",
+      "confirmPassword": "1234",
+      "id": 6
+    },
+    {
+      "email": "sjsj@gmail.com",
+      "name": "shsh",
+      "password": "1234",
+      "confirmPassword": "123456",
+      "id": 7
+    },
+    {
+      "email": "shi@gmail.com",
+      "name": "jjjj",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 8
+    },
+    {
+      "email": "shivani@gmail.co",
+      "name": "jsjsj",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 9
+    },
+    {
+      "email": "shiv@gmail.com",
+      "name": "shsh",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 10
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Chris Sawin",
+      "content": "_Doctor Strange in the Multiverse of Madness_ is dark, silly, and fan pleasing. The film is at is most bewitching when Sam Raimi can let his horror roots be showcased.",
+      "id": "6271cf31c74eba0f0f0c9316",
+      "movieId": 1
+    },
+    {
+      "author": "MSB",
+      "content": "Doctor Strange in the Multiverse of Madness is undoubtedly one of the most unique installments in the MCU, thanks to Sam Raimi's distinctive visual style and his impNev",
+      "id": "627599e61b1f3c0051e4d96d",
+      "movieId": 1
+    },
+    {
+      "author": "CinemaSerf",
+      "content": "Whilst I really did quite enjoy this - and it was great to be in a busy cinema again -",
+      "id": "629381a2cddbbc74b3081465",
+      "movieId": 1
+    },
+    {
+      "content": "jsjsjs",
+      "author": "jsj",
+      "id": "nmqqzOu"
+    },
+    {
+      "content": "wowowo",
+      "author": "wowo",
+      "id": "kD1sffr"
+    },
+    {
+      "content": "ksksk",
+      "author": "ssk",
+      "id": "nnYvL8J"
+    },
+    {
+      "content": "skksks",
+      "author": "sksk",
+      "id": "SeVCeXP"
+    },
+    {
+      "content": "shshsh",
+      "author": "shshh",
+      "id": "A6gXtiW"
+    },
+    {
+      "content": "sjsjjss",
+      "author": "ssjsj",
+      "movieId": 1,
+      "id": "cGPj6lB"
+    },
+    {
+      "content": "sss",
+      "author": "fff",
+      "movieId": 1,
+      "id": "a8qI_dK"
+    },
+    {
+      "content": "sshhs",
+      "author": "shivani ",
+      "movieId": 1,
+      "id": "XwpycYt"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

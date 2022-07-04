@@ -1,0 +1,29 @@
+.movie-banner-detail-wrapper {
+    z-index: 3;
+    position: relative;
+    color: white;
+  }
+
+  .movie-banner-poster-img-wrapper > img {
+    box-shadow: 0 0 8px rgba(black, 0.6);
+    border: 1px solid black;
+  }
+
+  .movie-banner-detail-content-wrapper {
+    padding-top: 30px;
+    .title {
+      margin-bottom: 30px;
+  
+      h2 {
+        margin: 0 0 10px;
+  
+        > strong {
+          font-weight: 900;
+        }
+
+      }
+
+    }
+}
+    
+  

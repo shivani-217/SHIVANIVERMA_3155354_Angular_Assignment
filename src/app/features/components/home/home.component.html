@@ -1,0 +1,88 @@
+<div class="container">
+
+    <div class="wrapper">
+        <div class="d-flex align-items-center justify-content-between mb-4 mt-4">
+            <h1 class="text-center">{{'Popular Movies'|translate}}</h1>
+            <div class="search-bar">
+                <app-search (searchTextChanges)="onSearchTextEntered($event)"></app-search>
+            </div>
+        </div>
+        <div class="row">
+            <ng-container *ngFor="let movie of movieList">
+                <div class="col-12 col-md-6 col-lg-3 mb-4"
+                    *ngIf="searchText === '' || movie.title.toLowerCase().includes(searchText) || movie.genre.toLowerCase().includes(searchText)">
+                    <div class="poster-wrapper">
+                        <a [routerLink]="['/movie',movie.id]">
+                            <img [src]="movie.imageUrl" class="img-fluid w-100">
+                        </a>
+                        <h2 class="mt-2">{{ movie.title }}</h2>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+
+    <ng-container *ngIf="isLogin">
+
+        <div class="wrapper" *ngIf="watchedMovieList.length>0">
+            <div class="d-flex align-items-center justify-content-between mb-4 mt-4">
+                <h1 class="text-center">{{'Watched Movies'|translate}}</h1>
+            </div>
+            <div class="row">
+                <ng-container *ngFor="let movie of watchedMovieList">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4"
+                        *ngIf="searchText === '' || movie.title.toLowerCase().includes(searchText) || movie.genre.toLowerCase().includes(searchText)">
+                        <div class="poster-wrapper">
+                            <a [routerLink]="['/movie',movie.id]">
+                                <img [src]="movie.imageUrl" class="img-fluid w-100">
+                            </a>
+                            <h2 class="mt-2">{{ movie.title }}</h2>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+
+        <div class="wrapper" *ngIf="favMovieList.length>0">
+            <div class="d-flex align-items-center justify-content-between mb-4 mt-4">
+                <h1 class="text-center">{{'Favorite Movies'|translate}}</h1>
+            </div>
+            <div class="row">
+                <ng-container *ngFor="let movie of favMovieList">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4"
+                        *ngIf="searchText === '' || movie.title.toLowerCase().includes(searchText) || movie.genre.toLowerCase().includes(searchText)">
+                        <div class="poster-wrapper">
+                            <a [routerLink]="['/movie',movie.id]">
+                                <img [src]="movie.imageUrl" class="img-fluid w-100">
+                            </a>
+                            <h2 class="mt-2">{{ movie.title }}</h2>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+
+        <div class="wrapper" *ngIf="yetToWatchMovieList.length>0">
+            <div class="d-flex align-items-center justify-content-between mb-4 mt-4">
+                <h1 class="text-center">{{'Watch Later Movies'|translate}}</h1>
+            </div>
+            <div class="row">
+                <ng-container *ngFor="let movie of yetToWatchMovieList">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4"
+                        *ngIf="searchText === '' || movie.title.toLowerCase().includes(searchText) || movie.genre.toLowerCase().includes(searchText)">
+                        <div class="poster-wrapper">
+                            <a [routerLink]="['/movie',movie.id]">
+                                <img [src]="movie.imageUrl" class="img-fluid w-100">
+                            </a>
+                            <h2 class="mt-2">{{ movie.title }}</h2>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+
+
+    </ng-container>
+
+
+

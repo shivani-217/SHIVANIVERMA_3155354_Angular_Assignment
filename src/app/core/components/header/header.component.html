@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <span>
+        <mat-icon></mat-icon>My OTT APP
+    </span>
+    <button mat-button (click)="goto('home')">{{'Home'|translate}}</button>
+    <button mat-button (click)="goto('admin')">{{'Admin'|translate}}</button>
+    <button mat-stroked-button *ngIf="isLogin" (click)="addPrimeMembership()">Opt-in Prime</button>
+    <div class="spacer">
+    </div>
+    <button *ngIf="!isLogin" mat-button (click)="goto('login')" routerLinkActive="active">{{'Login'|translate}}</button>
+    <button *ngIf="!isLogin" mat-button (click)="goto('signup')" routerLinkActive="active">{{'Sign
+        Up'|translate}}</button>
+    <button *ngIf="isLogin" mat-button (click)="logout()" routerLinkActive="active">{{'Logout'|translate}}</button>
+    <select class="styled-select" #selectedLang (change)="switchLanguage(selectedLang.value)">
+        <option *ngFor="let language of translate.getLangs()" [value]="language"
+            [selected]="language === translate.currentLang">{{ language }}</option>
+    </select>
+</mat-toolbar>
