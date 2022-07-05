@@ -40,7 +40,7 @@
                     <mat-icon>favorite</mat-icon>
                 </ng-template>
             </div>
-            <div class="watch-later-button" *ngIf="!isWatched">
+            <div class="watch-later-button" *ngIf="!isWatchedLater || !isWatched " >
                 <button mat-raised-button color="primary" (click)="onWatchedLaterClick()">
                     <span>Watch Later</span>
                 </button>

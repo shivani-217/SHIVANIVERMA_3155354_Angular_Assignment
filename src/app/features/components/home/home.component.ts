@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
     if (this.isLogin) {
       this.loadFavList();
       this.loadWatchedList();
-      //  this.loadYetToWatchList();
+     this.loadYetToWatchList();
     }
   }
 
@@ -46,6 +46,11 @@ export class HomeComponent implements OnInit {
   loadWatchedList() {
     if (localStorage.getItem('watchedList')) {
       this.watchedMovieList = JSON.parse(localStorage.getItem('watchedList')!);
+    }
+  }
+  loadYetToWatchList(){
+    if (localStorage.getItem('watchLaterList')) {
+      this.yetToWatchMovieList = JSON.parse(localStorage.getItem('watchLaterList')!);
     }
   }
 

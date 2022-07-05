@@ -52,128 +52,62 @@
       "isPrime": false
     },
     {
-      "name": "Doctor Strange in the Multiverse of Madness",
-      "title": "Doctor Strange",
-      "description": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "name": "The Lion King",
+      "title": "The Lion King",
+      "description": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
       "imdbRating": 9,
       "language": "English",
-      "releaseDate": "2022-05-06T18:30:00.000Z",
-      "genre": "Action",
-      "imageUrl": "/assets/images/doctorStrange.jpg",
+      "releaseDate": "1994-10-10T18:30:00.000Z",
+      "genre": "Drama",
+      "imageUrl": "/assets/images/lionking.jpg",
       "id": 5,
       "isPrime": false
     },
     {
-      "name": "Spider-Man: No Way Home",
-      "title": "Spider-Man: No Way Home",
-      "description": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "name": "Uncharted",
+      "title": "Uncharted",
+      "description": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
       "imdbRating": 7,
       "language": "English",
-      "releaseDate": "2022-07-12T18:30:00.000Z",
+      "releaseDate": "2022-02-18T18:30:00.000Z",
       "genre": "Action",
-      "imageUrl": "/assets/images/spiderman.jpg",
+      "imageUrl": "/assets/images/uncharted.jpg",
       "id": 6,
       "isPrime": false
     },
     {
-      "name": "The Fault in Our Stars",
-      "title": "The Fault in Our Stars",
-      "description": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a patient named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.",
-      "imdbRating": 8,
+      "name": "The Shawshank Redemption",
+      "title": "The Shawshank Redemption",
+      "description": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+      "imdbRating": 9,
       "language": "English",
-      "releaseDate": "2014-05-07T18:30:00.000Z",
-      "genre": "Horror",
-      "imageUrl": "/assets/images/fault.jpg",
+      "releaseDate": "1994-05-07T18:30:00.000Z",
+      "genre": "Drama",
+      "imageUrl": "/assets/images/shawshank.jpg",
       "id": 7,
       "isWatched": false,
       "isPrime": false
     },
     {
-      "name": "Top Gun: Maverick",
-      "title": "Top Gun: Maverick",
-      "description": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
-      "imdbRating": 5,
+      "name": "Forrest Gump",
+      "title": "Forrest Gump",
+      "description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+      "imdbRating": 8,
       "language": "English",
       "releaseDate": "2022-04-07T18:30:00.000Z",
-      "genre": "Drama",
-      "imageUrl": "/assets/images/topgun.jpg",
+      "genre": "Comedy",
+      "imageUrl": "/assets/images/forrest.jpg",
       "id": 8,
       "isPrime": false
     }
   ],
   "users": [
     {
+      "email": "test@gmail.com",
+      "name": "shivani verma",
+      "password": "test123",
+      "confirmPassword": "test123",
       "id": 1
-    },
-    {
-      "email": "shsh",
-      "username": "shshh",
-      "firstName": "shshsh",
-      "lastName": "shshhs",
-      "password": "shshh",
-      "confirmPassword": "shshhs",
-      "id": 2
-    },
-    {
-      "email": "test@gmail.com",
-      "username": "test",
-      "firstName": "test",
-      "lastName": "test",
-      "password": "test123",
-      "confirmPassword": "test123",
-      "id": 3,
-      "primeUser": true
-    },
-    {
-      "email": "test@gmail.com",
-      "username": "shivani",
-      "firstName": "shivani",
-      "lastName": "shivani",
-      "password": "test123",
-      "confirmPassword": "test123",
-      "id": 4
-    },
-    {
-      "email": "s",
-      "name": "sjsj",
-      "password": "sjsjjs",
-      "confirmPassword": "ssiisi",
-      "id": 5
-    },
-    {
-      "email": "sksk@gmail.com",
-      "name": "shsh",
-      "password": "123",
-      "confirmPassword": "1234",
-      "id": 6
-    },
-    {
-      "email": "sjsj@gmail.com",
-      "name": "shsh",
-      "password": "1234",
-      "confirmPassword": "123456",
-      "id": 7
-    },
-    {
-      "email": "shi@gmail.com",
-      "name": "jjjj",
-      "password": "1234",
-      "confirmPassword": "1234",
-      "id": 8
-    },
-    {
-      "email": "shivani@gmail.co",
-      "name": "jsjsj",
-      "password": "1234",
-      "confirmPassword": "1234",
-      "id": 9
-    },
-    {
-      "email": "shiv@gmail.com",
-      "name": "shsh",
-      "password": "123456",
-      "confirmPassword": "123456",
-      "id": 10
     }
   ],
   "reviews": [
@@ -196,47 +130,46 @@
       "movieId": 1
     },
     {
-      "content": "jsjsjs",
-      "author": "jsj",
-      "id": "nmqqzOu"
+      "author": "Chris",
+      "content": "Whilst I really did quite enjoy this - and it was great to be in a busy cinema again -",
+      "id": "accnc",
+      "movieId": 2
     },
     {
-      "content": "wowowo",
-      "author": "wowo",
-      "id": "kD1sffr"
+      "author": "Tyler",
+      "content": "Whilst I really did quite enjoy this - and it was great to be in a busy cinema again -",
+      "id": "smssm",
+      "movieId": 3
     },
     {
-      "content": "ksksk",
-      "author": "ssk",
-      "id": "nnYvL8J"
+      "author": "John",
+      "content": "Whilst I really did quite enjoy this - and it was great to be in a busy cinema again -",
+      "id": "snsns",
+      "movieId": 4
     },
     {
-      "content": "skksks",
-      "author": "sksk",
-      "id": "SeVCeXP"
+      "author": "Megha",
+      "content": "Must watch movie.",
+      "id": "snnsns",
+      "movieId": 5
     },
     {
-      "content": "shshsh",
-      "author": "shshh",
-      "id": "A6gXtiW"
+      "author": "Shivani",
+      "content": "The movie is based on the hit Playstation series of games by Naughty Dog and stars Tom Holland as Nathan Drake, a young man who is as adept at history as he is with pickpocketing which he uses to offset his income from Bartending.",
+      "id": "snsnns",
+      "movieId": 6
     },
     {
-      "content": "sjsjjss",
-      "author": "ssjsj",
-      "movieId": 1,
-      "id": "cGPj6lB"
+      "author": "Joey",
+      "content": "First time seeing this in probably close to 20 years, maybe longer. Forgot how excellent of a movie this was, amazing all around from the performances, Morgan Freeman and Tim Robbins especially, with a roller coaster of emotions.",
+      "id": "snsn",
+      "movieId": 7
     },
     {
-      "content": "sss",
-      "author": "fff",
-      "movieId": 1,
-      "id": "a8qI_dK"
-    },
-    {
-      "content": "sshhs",
-      "author": "shivani ",
-      "movieId": 1,
-      "id": "XwpycYt"
+      "author": "Chandler",
+      "content": "Amazing movie. Must watch.",
+      "id": "snnsns",
+      "movieId": 8
     }
   ],
   "comments": [

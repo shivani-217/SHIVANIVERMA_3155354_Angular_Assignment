@@ -24,6 +24,7 @@ export class MovieDetailComponent implements OnInit {
   isWatchedLater: boolean;
   watchedList: Movie[] = [];
   favList: Movie[] = [];
+  watchLaterList: Movie[] = [];
   isLogin: boolean;
 
 
@@ -52,11 +53,17 @@ export class MovieDetailComponent implements OnInit {
         if (localStorage.getItem('watchedList')) {
           this.watchedList = JSON.parse(localStorage.getItem('watchedList')!);
         }
+        if (localStorage.getItem('watchLaterList')) {
+          this.watchLaterList = JSON.parse(localStorage.getItem('watchLaterList')!);
+        }
         if (this.favList.length > 0 && this.favList.find(m => this.id === m.id)) {
           this.isFav = true;
         }
         if (this.watchedList.length > 0 && this.watchedList.find(m => this.id === m.id)) {
           this.isWatched = true;
+        }
+        if (this.watchLaterList.length > 0 && this.watchLaterList.find(m => this.id === m.id)) {
+          this.isWatchedLater = true;
         }
       }
     })
@@ -88,20 +95,18 @@ export class MovieDetailComponent implements OnInit {
   }
 
   onWatchedLaterClick(): void {
-    // if (this.isLogin) {
-    //   this.isWatchedLater = !this.isWatchedLater;
-    //   this.movie.isWatchedLater = this.isWatchedLater;
-    //   this.movieService.updateMovie(this.movie, this.movie.id).subscribe({
-    //     next: (res:Movie) => {
-    //       alert("Marked as watched later");
-    //       console.log("watch function", res.isWatchedLater);
-    //     },
-    //     error: () => { }
-    //   });
-    // } else {
-    //   this.router.navigate(['login']);
-    // }
+    if (!this.isLogin) {
+      this.redirectToLogin();
+      return;
+    }
+    if (!this.isWatchedLater) {
+      this.watchLaterList.push(this.movie);
+      this.isWatchedLater = true;
+      localStorage.setItem('watchLaterList', JSON.stringify(this.watchLaterList));
+    }
   }
+
+
 
 
 
